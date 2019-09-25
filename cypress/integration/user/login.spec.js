@@ -11,7 +11,7 @@ describe('User sign in', () => {
     login.login(user.customer.email, user.customer.password)
     login.verifyUrlNotContains(url.loginPage)
   })
-  it('Verify that user can login to the app', () => {
+  it('Verify that invalid credentials message is shown', () => {
     login.login(user.customer.email, user.customer.password)
     login.verifyItemVisibleAndContainsText(login.invalidCredentialsMsg, 'Invalid username/password.')
   })
