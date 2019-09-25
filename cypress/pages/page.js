@@ -10,4 +10,8 @@ export class Page {
   verifyUrlNotContains (url) {
     cy.url().should('not.contain', url)
   }
+  verifyItemVisibleAndContainsText (locator, text) {
+    cy.get(locator).should('be.visible')
+      .and('contain', text)
+  }
 }
