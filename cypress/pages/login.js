@@ -6,6 +6,7 @@ export class Login extends Page {
     this.username = "[name='email']"
     this.password = "[name='password']"
     this.loginBtn = "[value='Sign in']"
+    this.invalidCredentialsMsg = '.sc-htoDjs'
   }
   login(username, password) {
     cy.get(this.username)
