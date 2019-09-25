@@ -1,0 +1,22 @@
+{
+  "name": "simplrlogin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kivo35/simplrLogin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kivo35/simplrLogin/issues"
+  },
+  "homepage": "https://github.com/kivo35/simplrLogin#readme",
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  }
+}
